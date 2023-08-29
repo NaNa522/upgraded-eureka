@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photographer Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        /* Add your custom CSS styles here */
+        .w3-display-container {
+    position: relative;
+}
+
+.w3-image {
+    width: 100%;
+    height: auto;
+}
+
+.w3-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.w3-padding-large {
+    padding: 48px;
+}
+
+.w3-text-light-grey {
+    color: #f8f9fa !important;
+}
+
+
+/* Navbar */
+.w3-bar {
+    background-color: #f8f9fa !important;
+}
+
+.w3-light-grey {
+    background-color: #f8f9fa !important;
+}
+
+.w3-round {
+    border-radius: 4px;
+}
+
+/* Portfolio Images */
+.w3-image.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Form */
+.w3-section {
+    margin-bottom: 16px;
+}
+
+/* Footer */
+.w3-container {
+    margin-bottom: 32px;
+}
+
+.w3-margin-top {
+    margin-top: 16px;
+}
+
+.w3-dark-grey {
+    background-color: #343a40 !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    /* Header */
+    .w3-xxxlarge {
+        font-size: 36px;
+    }
+
+    /* Navbar (small screens) */
+    .w3-hide-small {
+        display: inline-block !important;
+    }
+    
+    /* Hide large and medium screens navbar */
+    .w3-hide-large {
+        display: none !important;
+    }
+
+    .w3-hide-medium {
+        display: none !important;
+    }
+    
+    /* Contact Form */
+    .w3-section {
+        margin-bottom: 8px;
+    }
+
+    /* Footer */
+    .w3-margin-top {
+        margin-top: 8px;
+    }
+}
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+    <img class="w3-image" src="tameshi camera.jpeg" alt="Me" width="1500" height="600">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Ulyana's Camera</h1>
+        <h5 class="w3-hide-large" style="white-space:nowrap">Ulyana's Camera</h5>
+        <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
+    </div>
+
+    <!-- Navbar (placed at the bottom of the header image) -->
+    <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+    <div class="w3-bar w3-light-grey">
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+    <!-- Images (Portfolio) -->
+    <img src="IMG_0531.JPG" alt="Ocean" class="w3-image img-fluid" width="1000" height="500">
+    <img src="IMG_0535.JPG" alt="Ocean II" class="w3-image w3-margin-top img-fluid" width="1000" height="500">
+    <img src="IMG_0538.JPG" alt="Falls" class="w3-image w3-margin-top img-fluid" width="1000" height="500">
+    <img src="IMG_0803.JPG" alt="Skies" class="w3-image w3-margin-top img-fluid" width="1000" height="500">
+    <img src="IMG_1019.JPG" alt="Mountains" class="w3-image w3-margin-top img-fluid" width="1000" height="500">
+
+    <!-- Contact -->
+    <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+        <h3 class="w3-center">Contact</h3>
+        <hr>
+        <p>パワーショットカメラ（Canon PowerShot SX500 IS）を使って趣味として写真を撮ったりする大学生です。<br>
+            Canon PowerShot SX500 ISデジタルカメラは、さまざまな写真の種類を撮影できる多目的なカメラです。主な写真の種類には：</p>
+            <ol>
+                <li>ポートレート写真: 人物や顔などのポートレート写真を撮影するのに適しています。</li>
+                <li>ランドスケープ写真: 自然の風景、山、川などの美しい風景を撮影するのに適しています。</li>
+                <li>マクロ写真: 小さな被写体や細部を拡大して撮影するのに適しており、花や昆虫などの写真に適しています。</li>
+                <li>スポーツ写真: 高速の被写体を追いかけて撮影するのに適しており、スポーツイベントや動物の写真に使用できます。</li>
+                <li>夜景写真: 夜間の風景や都市の夜景を撮影するのに適しています。</li>
+                <li>パノラマ写真: 広い景色を捉えるために複数の写真を結合して撮影することができます。</li>
+                <li>ズーム写真: PowerShot SX500 ISは、強力な光学ズーム機能を備えており、遠くの被写体を近くに引き寄せて撮影できます。</li>
+                <li>クリエイティブな写真: カメラにはさまざまなシーンモードやエフェクトが搭載されており、クリエイティブな写真を撮影するのに役立ちます。</li>
+            </ol>
+            <p>以上、様々な写真が撮れますが、今までの経験では主に、おしゃれ系、ファション系、ブログ系、自然系などの写真を撮影してきました。<br>
+            趣味を広げて行きたいと思いますが、いつでも、どこでも、撮影に行きますので、是非ご意見などお問い合わせいただければと思います。</p>        
+
+        <form action="mailto:kakaksana22@gmail.com" method="post" enctype="text/plain">
+    <div class="w3-section">
+        <label for="Name">Name</label>
+        <input class="w3-input w3-border" type="text" required id="Name" name="Name">
+    </div>
+    <div class="w3-section">
+        <label for="Email">Email</label>
+        <input class="w3-input w3-border" type="email" required id="Email" name="Email">
+    </div>
+    <div class="w3-section">
+        <label for="Message">Message</label>
+        <textarea class="w3-input w3-border" required id="Message" name="Message"></textarea>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+</form><br>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-margin-top w3-light-grey w3-center w3-large">
+        <p class="w3-small">インスタグラムも是非御覧下さい!</p>
+        <a class="w3-button w3-round-xxlarge w3-small w3-dark-grey w3-margin-bottom" href="https://instagram.com/an_na_52?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank">インスタグラム</a>  
+    </footer>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
